@@ -1,0 +1,126 @@
+/* Start Global Rules & Variables */
+
+:root {
+  --pageColor: hsl(30, 38%, 92%);
+  --cardColor: hsl(0, 0%, 100%);
+  --mainColor: hsl(228, 12%, 48%);
+  --secondColor: hsl(158, 36%, 37%);
+  --thirdColor: hsl(212, 21%, 14%);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* End Global Rules & Variables */
+body {
+  background-color: var(--pageColor);
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+/* Start Container  */
+.container {
+  width: 530px;
+}
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.card > img {
+  max-width: 100%;
+}
+.card .image {
+  background-image: url(../images/image-product-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.card .content {
+  padding: 25px;
+  background-color: var(--cardColor);
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.card .content .type {
+  font-size: 0.8em;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: var(--mainColor);
+}
+.card .content .title {
+  width: 200px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-transform: capitalize;
+  color: var(--thirdColor);
+  line-height: 1;
+}
+.card .content .description {
+  font-size: 1em;
+  line-height: 1.7;
+  color: var(--mainColor);
+}
+.card .content .price {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.price .current {
+  font-size: 2em;
+  font-family: "Fraunces", sans-serif;
+  color: var(--secondColor);
+}
+.price .old {
+  color: var(--mainColor);
+  font-size: 1em;
+  text-decoration: line-through;
+}
+button {
+  padding: 15px;
+  background-color: var(--secondColor);
+  color: var(--cardColor);
+  font-weight: bold;
+  font-size: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: none;
+}
+button:hover {
+  background-color: var(--thirdColor);
+  cursor: pointer;
+}
+
+/* Mobile */
+@media (max-width: 375px) {
+  .container {
+    width: 330px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+  .content .title {
+    width: fit-content !important;
+  }
+  .card .image {
+    height: 240px;
+    background-image: url(../images/image-product-mobile.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .card .content {
+    gap: 10px;
+  }
+}
