@@ -39,24 +39,12 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Adam-Muhtarif/-1-Product-preview-card-component-/edit/main/README.md)
-- Live Site URL: [Add live site URL here](https://adam-muhtarif.github.io/-1-Product-preview-card-component-/)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Solution URL: [Click To Get The Code](https://github.com/Adam-Muhtarif/-1-Product-preview-card-component-/edit/main/README.md)
+- Live Site URL: [Click To Review The Live Version](https://adam-muhtarif.github.io/-1-Product-preview-card-component-/)
 
 
 ## Author
 
 - Frontend Mentor - [@Adam-Muhtarif](https://www.frontendmentor.io/profile/@Adam-Muhtarif)
+- Css Battle - [@adam_muhtarif](https://cssbattle.dev/player/adam_muhtarif)
 
