@@ -47,4 +47,5 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - Frontend Mentor - [@Adam-Muhtarif](https://www.frontendmentor.io/profile/@Adam-Muhtarif)
 - Css Battle - [@adam_muhtarif](https://cssbattle.dev/player/adam_muhtarif)
+- Linkedin - [Link](https://www.linkedin.com/in/adam-a-531462248/)
 
